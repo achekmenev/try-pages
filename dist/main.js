@@ -1,4 +1,4 @@
-import { loadText } from '../utils/util.js';
+import { loadText } from './util.js';
 // Load shader code from external file
 const shaderCode = await loadText('./mandelbrot.wgsl');
 // Search the DOM for the first <canvas> element
